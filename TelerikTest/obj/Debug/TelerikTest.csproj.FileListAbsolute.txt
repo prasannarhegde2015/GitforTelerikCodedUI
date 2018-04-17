@@ -1,0 +1,14 @@
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\TelerikTest.dll.config
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\TelerikTest.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\TelerikTest.pdb
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\ArtOfTest.WebAii.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\Newtonsoft.Json.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\Telerik.TestingFramework.Controls.KendoUI.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\Telerik.TestingFramework.Json.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\Telerik.WebAii.Controls.Html.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\Telerik.TestStudio.Core.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\Telerik.TestingFramework.Hosts.Common.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\bin\Debug\ArtOfTest.WebAii.xml
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\obj\Debug\TelerikTest.dll
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\obj\Debug\TelerikTest.pdb
+C:\Users\E159279\documents\visual studio 2015\Projects\TelerikTest\TelerikTest\obj\Debug\TelerikTest.csprojResolveAssemblyReference.cache
