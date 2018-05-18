@@ -58,8 +58,25 @@ namespace ForeSiteSelenium
             drv.FindElement(By.XPath("//button[contains(text(),'Create New Well')]")).Click();
             Trace.WriteLine("Clicked New Well Button"+DateTime.Now.ToString());
 
+            
+            //wellName
+            drv.FindElement(By.Id("wellName")).SendKeys("RRL_0001");
+            drv.FindElement(By.XPath("//kendo-dropdownlist[@id='wellType']")).Click();
+            drv.FindElement(By.XPath("//li[text()='RRL']")).Click();
+            //cygNetDomain
+            drv.FindElement(By.XPath("//kendo-dropdownlist[@id='cygNetDomain']")).Click();
+            drv.FindElement(By.XPath("//li[text()='27212']")).Click();
+            wait.Until(ExpectedConditions.InvisibilityOfElementLocated(loadingImage));
+
+            //siteService
+            drv.FindElement(By.XPath("//kendo-dropdownlist[@id='siteService']")).Click();
+            drv.FindElement(By.XPath("//li[contains(.,'.UIS')]")).Click();
+            ////div[@id='facilityButtonDiv']
+            drv.FindElement(By.XPath("//div[@id='facilityButtonDiv']")).Click();
             Trace.WriteLine("Extranoes wait to esnure Browser is open");
-            Thread.Sleep(5000);
+            Thread.Sleep(5000000);
+
+            //kendo-dropdownlist[@id='wellType']
             // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
         }
 
