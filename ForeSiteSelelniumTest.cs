@@ -70,11 +70,31 @@ namespace ForeSiteSelenium
 
             //siteService
             drv.FindElement(By.XPath("//kendo-dropdownlist[@id='siteService']")).Click();
+            Thread.Sleep(5000);
             drv.FindElement(By.XPath("//li[contains(.,'.UIS')]")).Click();
             ////div[@id='facilityButtonDiv']
             drv.FindElement(By.XPath("//div[@id='facilityButtonDiv']")).Click();
+            wait.Until(ExpectedConditions.InvisibilityOfElementLocated(loadingImage));
+
+            //Selelct First Record of Facility Table:
+            drv.FindElement(By.XPath("//table[contains(.,'Facility Id')]/descendant::td[1]")).Click();
             Trace.WriteLine("Extranoes wait to esnure Browser is open");
-            Thread.Sleep(5000000);
+            drv.FindElement(By.Id("buttonApply")).Click();
+            drv.FindElement(By.XPath("//input[@id='commissionDate']")).SendKeys("02/02/2016");
+            drv.FindElement(By.XPath("//input[@id='assemblyAPI']")).SendKeys("122");
+            //assemblyAPI
+            drv.FindElement(By.XPath("//input[@id='subAssemblyAPI']")).SendKeys("1345");
+            //subAssemblyAPI
+            drv.FindElement(By.XPath("//input[@id='latitude']")).SendKeys("12");
+            //latitude
+
+            //longitude
+            drv.FindElement(By.XPath("//input[@id='longitude']")).SendKeys("18");
+
+            drv.FindElement(By.XPath("//button[@name='saveWellbutton']")).Click();
+            Thread.Sleep(5000);
+          
+
 
             //kendo-dropdownlist[@id='wellType']
             // To generate code for this test, select "Generate Code for Coded UI Test" from the shortcut menu and select one of the menu items.
