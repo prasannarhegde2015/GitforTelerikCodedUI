@@ -80,7 +80,10 @@ namespace ForeSiteSelenium
             drv.FindElement(By.XPath("//table[contains(.,'Facility Id')]/descendant::td[1]")).Click();
             Trace.WriteLine("Extranoes wait to esnure Browser is open");
             drv.FindElement(By.Id("buttonApply")).Click();
-            drv.FindElement(By.XPath("//input[@id='commissionDate']")).SendKeys("02/02/2016");
+            drv.FindElement(By.XPath("//input[@id='commissionDate']")).Click();
+            System.Windows.Forms.SendKeys.SendWait("{Home}");
+            Thread.Sleep(1000);
+            drv.FindElement(By.XPath("//input[@id='commissionDate']")).SendKeys("02022016");
             drv.FindElement(By.XPath("//input[@id='assemblyAPI']")).SendKeys("122");
             //assemblyAPI
             drv.FindElement(By.XPath("//input[@id='subAssemblyAPI']")).SendKeys("1345");
